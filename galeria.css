@@ -1,0 +1,49 @@
+.trabajos{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.imagenesgrande{
+    width: 900px;
+    display:flex;
+    margin: auto;
+}
+.imagenes{
+    width: 450px;
+    height: 450px;
+}
+.informacióntrabajo{
+    width: 900px;
+    margin: auto;
+}
+.t1p{
+    background-image: url(ilust1\ \(1\).png);
+}
+.t2p{
+      background-image: url(ilust2.png);
+}
+.t1a{
+    background-image: url(ilust3.png);
+    background-size: contain;
+}
+
+.trabajogrande{
+    background-color: darkgrey;
+    padding-top: 60px;
+    display: none;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+
+}
+#foto1:target{
+    display: block;
+}
+#foto2:target{
+    display: block;
+}
+
